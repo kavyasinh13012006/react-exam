@@ -1,0 +1,246 @@
+/* स्टाइल शीट का आधार */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Register फ़ॉर्म का कंटेनर */
+  form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+  }
+  
+  /* हेडिंग */
+  h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* इनपुट फील्ड्स */
+  input[type="text"],
+  input[type="password"],
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  /* इनपुट फील्ड्स का फोकस */
+  input[type="text"]:focus,
+  input[type="password"]:focus {
+    border: 1px solid #5cb85c;
+    outline: none;
+    background-color: #f9f9f9;
+  }
+  
+  /* सबमिट बटन */
+  input[type="submit"] {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #4cae4c;
+  }
+  
+  /* Register फ़ॉर्म के बाहर का स्पेस */
+  form {
+    margin: 50px auto;
+  }
+
+  
+  /* बॉडी का बेसिक स्टाइल */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* फॉर्म कंटेनर */
+  form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  /* हेडिंग */
+  h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* इनपुट फील्ड्स */
+  input[type="text"],
+  input[type="password"],
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  /* इनपुट फील्ड्स का फोकस */
+  input[type="text"]:focus,
+  input[type="password"]:focus {
+    border: 1px solid #007BFF;
+    outline: none;
+  }
+  
+  /* सबमिट बटन */
+  input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* फॉरगेट पासवर्ड बटन */
+  button {
+    background-color: transparent;
+    border: none;
+    color: #007BFF;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    color: #0056b3;
+  }
+  
+
+  /* बॉडी का बेसिक स्टाइल */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* फॉर्म का कंटेनर */
+  form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  /* इनपुट फील्ड्स */
+  input[type="text"],
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  /* इनपुट फील्ड्स पर फोकस */
+  input[type="text"]:focus {
+    border: 1px solid #007BFF;
+    outline: none;
+  }
+  
+  /* सबमिट बटन */
+  input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* बैक टू लॉगिन बटन */
+  button {
+    background-color: transparent;
+    border: none;
+    color: #007BFF;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    color: #0056b3;
+  }
+  
+
+  /* बॉडी का बेसिक स्टाइल */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* डैशबोर्ड कंटेनर */
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+/* लॉगआउट बटन */
+input[type="button"] {
+  display: block;
+  width: 150px;
+  padding: 10px;
+  margin: 0 auto;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+input[type="button"]:hover {
+  background-color: #e60000;
+}
+
+
